@@ -49,7 +49,7 @@
   }
   
   .details {
-    margin: 15% auto;
+    margin: 10% auto;
     /* background-color: chartreuse; */
     width: 60%;
     text-align: center;
@@ -62,14 +62,14 @@
   }
   
   .googlebutton > button {
-    padding: 7px 93px;
+    padding: 12px 93px;
     background-color: #fff;
     border-radius: 5px;
     border: 1px solid black;
   }
   
   .googlebutton > button:hover {
-    padding: 7px 93px;
+    padding: 12px 93px;
     background-color: #000;
     border-radius: 5px;
     border: 1px solid black;
@@ -77,6 +77,14 @@
     cursor: pointer;
   }
   
+  .FaGoogle{
+    display: inline-block;
+    padding: 0 6px 0 0;
+    /* background-color: aqua; */
+    position: inherit;
+    font-size: 12px;
+  }
+
   .btn {
     font-size: 15px;
     font-weight: 600;
@@ -85,7 +93,7 @@
   .form {
     margin: 0 auto;
     /* background-color: chocolate; */
-    width: 62%;
+    width: 65%;
     padding: 20px 0;
   }
   
@@ -106,8 +114,8 @@
   }
   .inputEmail {
     /* padding: 0 3px; */
-    height: 30px;
-    width: 100%;
+    height: 40px;
+    width: 97%;
     border-radius: 5px;
     outline: none;
     padding-left: 0.5rem;
@@ -116,8 +124,8 @@
   
   .inputPassword {
     /* padding: 0 3px; */
-    height: 30px;
-    width: 100%;
+    height: 40px;
+    width: 97%;
     border-radius: 5px;
     padding-left: 0.5rem;
     outline: none;
@@ -140,7 +148,7 @@
   }
   
   .section3 > button {
-    padding: 7px 93px;
+    padding: 15px 93px;
     background-color: #000;
     border-radius: 5px;
     border: 1px solid black;
@@ -151,7 +159,7 @@
   }
   
   .btn2 {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 800;
   }
   

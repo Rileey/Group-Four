@@ -1,4 +1,8 @@
 import style from "./stylesheets/signup.module.css";
+import { FaGoogle } from "react-icons/fa";
+
+
+// library.add(faGoogle)
 
 const SignUp = () => {
   return (
@@ -18,6 +22,9 @@ const SignUp = () => {
           <h5>CREATE AN ACCOUNT</h5>
           <div className={style.googlebutton}>
             <button type="button" className={style.btn}>
+              <div className={style.FaGoogle}>
+                <FaGoogle/>
+              </div>  
               Sign up with google
             </button>
           </div>
