@@ -37,6 +37,7 @@
   
   .logo p {
     color: #fff;
+    cursor: default;  
   }
   
   .second {
@@ -148,7 +149,6 @@
   }
   
   .section3 > button {
-    padding: 15px 93px;
     background-color: #000;
     border-radius: 5px;
     border: 1px solid black;
@@ -159,8 +159,8 @@
   }
   
   .btn2 {
-    font-size: 10px;
-    font-weight: 800;
+    font-size: 13px;
+    font-weight: 600;
   }
   
   .restaurant {

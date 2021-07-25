@@ -46,7 +46,7 @@ const SignUp = () => {
                   type="password"
                   id="pword"
                   name="password"
-                  placeholder="..."
+                  placeholder="password"
                   className={style.inputPassword}
                 />
                  </div>
