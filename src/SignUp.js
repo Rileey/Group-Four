@@ -19,17 +19,29 @@ const SignUp = () => {
         <img className={style.restaurant} src="/assets/restaurant.png" />
         <img className={style.restaurant2} src="/assets/restaurant.png" />
         <div className={style.details}>
-          <h5>CREATE AN ACCOUNT</h5>
-          <div className={style.googlebutton}>
-            <button type="button" className={style.btn}>
-              <div className={style.FaGoogle}>
-                <FaGoogle/>
-              </div>  
-              Sign up with google
-            </button>
+          <div className={style.h5}>
+            <h5>CREATE AN ACCOUNT</h5>
           </div>
           <div className={style.form}>
             <form action="/">
+              <div className={style.googlebutton}>
+                <button type="button" className={style.btn}>
+                  <div className={style.FaGoogle}>
+                    <FaGoogle/>
+                  </div>  
+                  Sign up with google
+                </button>
+              </div>
+              <div className={style.section0}>
+                <label className={style.name}>Your name</label>
+                <input
+                  className={style.inputName}
+                  type="text"
+                  id="yourname"
+                  name="name"
+                  placeholder="name"
+                />
+              </div>
               <div className={style.section1}>
                 <label className={style.email}>Your email</label>
                 <input
@@ -49,8 +61,18 @@ const SignUp = () => {
                   placeholder="password"
                   className={style.inputPassword}
                 />
-                 </div>
+              </div>
               <div className={style.section3}>
+                <label className={style.confirmPassword}>Confirm password</label>
+                <input
+                  type="password"
+                  id="Cpword"
+                  name="ConfirmPassword"
+                  placeholder="password"
+                  className={style.inputConfirmPassword}
+                />
+              </div>
+              <div className={style.section4}>
                 <button type="button" className={style.btn2}>
                   Sign Up
                 </button>
