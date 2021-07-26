@@ -286,7 +286,6 @@
       }
     
       .inputName {
-        /* padding: 0 3px; */
         font-size: 20px;
         height: 60px;
         width: 97%;
@@ -297,7 +296,6 @@
       }
     
       .inputEmail {
-        /* padding: 0 3px; */
         font-size: 20px;
         height: 60px;
         width: 97%;
@@ -433,7 +431,6 @@
 
   @media (min-width: 500px) and (max-width: 750px) {
     .googlebutton {
-        /* background-color: darkgreen; */
         margin: 9px 0;
       }  
     .FaGoogle{
@@ -522,7 +519,6 @@
       }
 
       .googlebutton {
-        /* background-color: darkgreen; */
         margin: 5px 0;
       }  
     
@@ -574,19 +570,10 @@
       }
       .googlebutton > button {
         padding: 7px 0;
-        background-color: #fff;
-        border-radius: 5px;
-        border: 1px solid black;
-        width: 100%;
       }
       
       .googlebutton > button:hover {
         padding: 7px 0;
-        background-color: #000;
-        border-radius: 5px;
-        border: 1px solid black;
-        color: #fff;
-        cursor: pointer;
       }
       
   }
