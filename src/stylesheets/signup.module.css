@@ -3,15 +3,16 @@
   }
   .first {
     /* position: relative; */
+    height: 110vh;
   
     display: inline-block;
     width: 35%;
     overflow: hidden;
-    margin-bottom: -7px;
+    margin-bottom: -0.438rem;
   }
   
   .image {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     position: relative;
     display: flex;
@@ -19,6 +20,13 @@
   
   .img {
     width: 100%;
+  }
+
+  .image .img2{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    height: 0.938rem;
   }
   
   .logo {
@@ -41,39 +49,36 @@
   }
   
   .second {
-    height: 100vh;
-    /* background-color: darkseagreen; */
+    height: 110vh;
     display: inline-block;
     width: 65%;
     overflow: hidden;
-    margin-bottom: -7px;
+    margin-bottom: -0.438rem;
   }
   
   .details {
     margin: 10% auto;
-    /* background-color: chartreuse; */
     width: 60%;
     text-align: center;
     padding: 20px 0;
   }
-  
+
   .googlebutton {
-    /* background-color: darkgreen; */
     margin: 20px 0;
   }
   
   .googlebutton > button {
-    padding: 12px 0;
+    padding: 0.75rem 0;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     border: 1px solid black;
     width: 100%;
   }
   
   .googlebutton > button:hover {
-    padding: 12px 0;
+    padding: 0.75rem 0;
     background-color: #000;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     border: 1px solid black;
     color: #fff;
     cursor: pointer;
@@ -81,131 +86,149 @@
   
   .FaGoogle{
     display: inline-block;
-    padding: 0 6px 0 0;
-    /* background-color: aqua; */
+    padding: 0 0.375rem 0 0;
     position: inherit;
     font-size: 11px;
   }
 
   .btn {
-    font-size: 13px;
+    font-size: 0.688rem;
     font-weight: 600;
   }
   
   .form {
     margin: 0 auto;
-    /* background-color: chocolate; */
     width: 65%;
   }
 
+  .success{
+    font-size: 0.7rem;
+  }
+
   .name {
-    padding: 0 5px;
-    font-size: 10px;
+    padding: 0 0.313rem;
+    font-size: 0.625rem;
     font-weight: 600;
     text-align: left;
     display: block;
   }
   
   .email {
-    padding: 0 5px;
-    font-size: 10px;
+    padding: 0 0.313rem;
+    font-size: 0.625rem;
     font-weight: 600;
     text-align: left;
     display: block;
   }
   
   .password {
-    padding: 0 5px;
-    font-size: 10px;
+    padding: 0 0.313rem;
+    font-size: 0.625rem;
     font-weight: 600;
     text-align: left;
     display: block;
   }
 
   .confirmPassword {
-    padding: 0 5px;
-    font-size: 10px;
+    padding: 0 0.313rem;
+    font-size: 0.625rem;
     font-weight: 600;
     text-align: left;
     display: block;
   }
 
   .inputName {
-    /* padding: 0 3px; */
-    height: 40px;
+    height: 2.5rem;
     width: 97%;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     outline: none;
     padding-left: 0.5rem;
     border: 0.5px black solid;
   }
 
   .inputEmail {
-    /* padding: 0 3px; */
-    height: 40px;
+    height: 2.5rem;
     width: 97%;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     outline: none;
     padding-left: 0.5rem;
     border: 0.5px black solid;
   }
   
   .inputPassword {
-    /* padding: 0 3px; */
-    height: 40px;
+    height: 2.5rem;
     width: 97%;
-    border-radius: 5px;
-    padding-left: 0.5rem;
+    border-radius: 0.313rem;
     outline: none;
+    padding-left: 0.5rem;
     border: 0.5px black solid;
   }
 
   .inputConfirmPassword {
-    /* padding: 0 3px; */
-    height: 40px;
+    height: 2.5rem;
     width: 97%;
-    border-radius: 5px;
-    padding-left: 0.5rem;
+    border-radius: 0.313rem;
     outline: none;
+    padding-left: 0.5rem;
     border: 0.5px black solid;
   }
 
   .section0 {
-    margin: 5px 0;
-    /* background-color: orange; */
+    margin: 0.313rem 0;
+  }
+
+  .section0 > .name > span{
+    font-size: 0.6rem;
+    color: red;
   }
 
   .section1 {
-    margin: 5px 0;
-    /* background-color: crimson; */
+    margin: 0.313rem 0;
+  }
+
+  .section1 > .email> span{
+    font-size: 0.6rem;
+    color: red;
   }
   
   .section2 {
-    margin: 5px 0;
-    /* background-color: darkgoldenrod; */
+    margin: 0.313rem 0;
+  }
+
+  .section2 > .password > span{
+    font-size: 0.6rem;
+    color: red;
   }
   .section3 {
-    margin: 5px 0;
-    /* background-color: yellow; */
+    margin: 0.313rem 0;
+  }
+
+  .section3 > .confirmPassword > span{
+    font-size: 0.6rem;
+    color: red;
   }
   
   .section4 {
-    margin: 20px 0;
-    /* background-color: darkslateblue; */
+    margin: 1.25rem 0;
+  }
+
+  .section4 > span{
+    font-size: 0.6rem;
+    color: red;
   }
   
   .section4 > button {
     background-color: #000;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     border: 1px solid black;
     color: #fff;
     width: 100%;
     cursor: pointer;
-    height: 40px;
+    height: 2.5rem;
   }
   
   .btn2 {
-    font-size: 13px;
+    font-size: 0.813rem;
     font-weight: 600;
   }
   
@@ -213,7 +236,7 @@
     position: absolute;
     top: 72%;
     right: 5%;
-    height: 130px;
+    height: 8.125rem;
     transform: rotate(-12deg);
   }
   
@@ -221,7 +244,7 @@
     position: absolute;
     top: 5%;
     right: 50%;
-    height: 130px;
+    height: 8.125rem;
     transform: rotate(40deg);
   }
 
@@ -230,39 +253,39 @@
         width: 65%;
       }
       .section0 {
-        margin: 20px 0;
+        margin: 1.25rem 0;
       }
     
       .section1 {
-        margin: 20px 0;
+        margin: 1.25rem 0;
       }
       
       .section2 {
-        margin: 20px 0;
+        margin: 1.25rem 0;
       }
       .section3 {
-        margin: 20px 0;
+        margin: 1.25rem 0;
       }
       
       .section4 {
-        margin: 20px 0;
+        margin: 1.25rem 0;
       }  
       .details {
         margin: 25% auto;
         width: 60%;
         text-align: center;
-        padding: 20px 0;
+        padding: 1.25rem 0;
       }
       .name {
         padding: 0 5px;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 600;
         text-align: left;
         display: block;
       }
       
       .email {
-        padding: 0 5px;
+        padding: 0 0.313rem;
         font-size: 20px;
         font-weight: 600;
         text-align: left;
@@ -270,7 +293,7 @@
       }
       
       .password {
-        padding: 0 5px;
+        padding: 0 0.313rem;
         font-size: 20px;
         font-weight: 600;
         text-align: left;
@@ -278,7 +301,7 @@
       }
     
       .confirmPassword {
-        padding: 0 5px;
+        padding: 0 0.313rem;
         font-size: 20px;
         font-weight: 600;
         text-align: left;
@@ -286,59 +309,57 @@
       }
     
       .inputName {
-        font-size: 20px;
-        height: 60px;
+        font-size: 1.25rem;
+        height: 3.75rem;
         width: 97%;
-        border-radius: 5px;
+        border-radius: 0.313rem;
         outline: none;
         padding-left: 0.5rem;
         border: 0.5px black solid;
       }
     
       .inputEmail {
-        font-size: 20px;
-        height: 60px;
+        font-size: 1.25rem;
+        height: 3.75rem;
         width: 97%;
-        border-radius: 5px;
+        border-radius: 0.313rem;
         outline: none;
         padding-left: 0.5rem;
         border: 0.5px black solid;
       }
       
       .inputPassword {
-        /* padding: 0 3px; */
-        font-size: 20px;
-        height: 60px;
+        font-size: 1.25rem;
+        height: 3.75rem;
         width: 97%;
-        border-radius: 5px;
-        padding-left: 0.5rem;
+        border-radius: 0.313rem;
         outline: none;
+        padding-left: 0.5rem;
         border: 0.5px black solid;
       }
     
       .inputConfirmPassword {
-        /* padding: 0 3px; */
-        font-size: 20px;
-        height: 60px;
+        font-size: 1.25rem;
+        height: 3.75rem;
         width: 97%;
-        border-radius: 5px;
-        padding-left: 0.5rem;
+        border-radius: 0.313rem;
         outline: none;
+        padding-left: 0.5rem;
         border: 0.5px black solid;
       }
 
       .section4 > button {
         background-color: #000;
-        border-radius: 5px;
+        border-radius: 0.313rem;
         border: 1px solid black;
         color: #fff;
         width: 100%;
         cursor: pointer;
-        height: 60px;
+        height: 3.75rem;
       }
       
       .btn2 {
-        font-size: 13px;
+        font-size:0.813rem;
         font-weight: 600;
       }
     
@@ -349,7 +370,7 @@
         margin: 15% auto;
         width: 60%;
         text-align: center;
-        padding: 20px 0;
+        padding: 1.25rem 0;
       }
   }
 
@@ -360,14 +381,14 @@
       }
 
       .btn {
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 600;
       }
       .FaGoogle{
         display: inline-block;
-        padding: 0 6px 0 0;
+        padding: 0 0.375rem 0 0;
         position: inherit;
-        font-size: 10px;
+        font-size: 0.625rem;
       }
 
       .form {
@@ -375,25 +396,25 @@
       }
 
       .inputName {
-        font-size: 12px;
+        font-size: 0.75rem;
       }
     
       .inputEmail {
-        font-size: 12px;
+        font-size: 0.75rem;
       }
       
       .inputPassword {
-        font-size: 12px;
+        font-size: 0.75rem;
       }
     
       .inputConfirmPassword {
-        font-size: 12px;
+        font-size: 0.75rem;
       }
       .restaurant {
         position: absolute;
         top: 85%;
         right: 4%;
-        height: 80px;
+        height: 5rem;
         transform: rotate(-12deg);
       }
       
@@ -401,7 +422,7 @@
         position: absolute;
         top: 12%;
         right: 54%;
-        height: 80px;
+        height: 5rem;
         transform: rotate(40deg);
       }
   }
@@ -419,26 +440,26 @@
       .restaurant {
         top: 85%;
         right: 4%;
-        height: 80px;
+        height: 5rem;
       }
       
       .restaurant2 {
         top: 12%;
         right: 54%;
-        height: 80px;
+        height: 5rem;
       }
   }
 
   @media (min-width: 500px) and (max-width: 750px) {
     .googlebutton {
-        margin: 9px 0;
+        margin: 0.563rem 0;
       }  
     .FaGoogle{
-        font-size: 9px;
+        font-size: 0.563rem;
       }
     
       .btn {
-        font-size: 11px;
+        font-size: 0.688rem;
       }
       .details {
         width: 85%;
@@ -447,36 +468,165 @@
       .restaurant {
         top: 85%;
         right: 4%;
-        height: 60px;
+        height: 3.75rem;
       }
       
       .restaurant2 {
         top: 10%;
         right: 54%;
-        height: 60px;
+        height: 3.75rem;
       }
 
       .logo {
-        font-size: 20px;
+        font-size: 1.25rem;
       }
       .inputName {
-        font-size: 10px;
+        font-size: 0.625rem;
       }
     
       .inputEmail {
-        font-size: 10px;
+        font-size: 0.625rem;
       }
       
       .inputPassword {
-        font-size: 10px;
+        font-size: 0.625rem;
       }
     
       .inputConfirmPassword {
-        font-size: 10px;
+        font-size: 0.625rem;
       }
   }
 
-  @media (min-width: 300px) and (max-width: 500px) {
+  @media (min-width: 350px) and (max-width: 500px) {
+    .img {
+      width: 100%;
+      height: 30%;
+    }
+    .first {
+      display: inline-block;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: -0.438rem;
+      height: 20vh;
+    }
+    .image .img2{
+      top: 20%;
+    }
+    .second {
+      height: 85vh;
+      display: inline-block;
+      width: 100%;
+      overflow: hidden;
+    }  
+    .image {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      display: flex;
+    }  
+  .img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .details {
+      margin: 12% auto;
+      width: 80%;
+      text-align: center;
+    }
+
+    .form {
+      height: 75%;
+      width: 80%;
+    }
+  
+    .logo {
+      font-size: 0.813rem;
+    }
+
+    .image .logo {
+      top: 45%;
+    }
+
+    .googlebutton {
+      margin: 0.313rem 0;
+    }  
+  
+    .restaurant {
+      top: 85%;
+      right: 4%;
+      height: 2.5rem;
+    }
+    
+    .restaurant2 {
+      top: 45%;
+      right: 80%;
+      height: 2.5rem;
+    }
+    .FaGoogle{
+      font-size: 0.375rem;
+    }
+  
+    .btn {
+      width: 100%;  
+      font-size: 0.5rem;
+    }
+
+    .h5{
+      font-size: 0.688rem;
+    }
+    .inputName {
+      font-size: 0.625rem;
+      height: 1.25rem;
+      width: 95%;
+    }
+  
+    .inputEmail {
+      font-size: 0.625rem;
+      height: 1.25rem;
+      width: 95%;
+    }
+    
+    .inputPassword {
+      font-size: 0.625rem;
+      height: 1.25rem;
+      width: 95%;
+    }
+  
+    .inputConfirmPassword {
+      font-size: 0.625rem;
+      height: 1.25rem;
+      width: 95%;
+    }
+    .googlebutton > button {
+      padding: 0.438rem 0;
+    }
+    
+    .googlebutton > button:hover {
+      padding: 0.438rem 0;
+    }
+    
+    .section0 {
+      margin: 1.25rem 0;
+    }
+  
+    .section1 {
+      margin: 1.25rem 0;
+    }
+    
+    .section2 {
+      margin: 1.25rem 0;
+    }
+    .section3 {
+      margin: 1.25rem 0;
+    }
+    
+    .section4 {
+      margin: 1.25rem 0;
+    }  
+  }
+
+  @media (min-width: 280px) and (max-width: 350px) {
 
     .img {
         width: 100%;
@@ -487,15 +637,17 @@
         display: inline-block;
         width: 100%;
         overflow: hidden;
-        margin-bottom: -7px;
-        height: 40vh;
+        margin-bottom: -0.438rem;
+        height: 20vh;
+      }
+      .image .img2{
+        top: 20%;
       }
       .second {
-        /* height: 100vh; */
+        height: 80vh;
         display: inline-block;
         width: 100%;
         overflow: hidden;
-        /* margin-bottom: -7px; */
       }  
       .image {
         height: 100%;
@@ -508,72 +660,99 @@
         height: 100%;
       }
 
+      .image .logo {
+        top: 45%;
+      }
+
       .details {
-        margin: 5% auto;
+        margin: 12% auto;
         width: 80%;
         text-align: center;
       }
+
+      .form {
+        height: 75%;
+        width: 80%;
+      }
     
     .logo {
-        font-size: 13px;
+        font-size: 0.813rem;
       }
 
       .googlebutton {
-        margin: 5px 0;
+        margin: 0.313rem 0;
       }  
     
       .restaurant {
         top: 85%;
         right: 4%;
-        height: 40px;
+        height: 2.5rem;
       }
       
       .restaurant2 {
         top: 45%;
         right: 80%;
-        height: 40px;
+        height: 2.5rem;
       }
       .FaGoogle{
-        font-size: 6px;
+        font-size: 0.375rem;
       }
     
       .btn {
         width: 100%;  
-        font-size: 8px;
+        font-size: 0.5rem;
       }
 
       .h5{
-        font-size: 11px;
+        font-size: 0.688rem;
       }
       .inputName {
-        font-size: 10px;
-        height: 20px;
+        font-size: 0.625rem;
+        height: 1.25rem;
         width: 95%;
       }
     
       .inputEmail {
-        font-size: 10px;
-        height: 20px;
+        font-size: 0.625rem;
+        height: 1.25rem;
         width: 95%;
       }
       
       .inputPassword {
-        font-size: 10px;
-        height: 20px;
+        font-size: 0.625rem;
+        height: 1.25rem;
         width: 95%;
       }
     
       .inputConfirmPassword {
-        font-size: 10px;
-        height: 20px;
+        font-size: 0.625rem;
+        height: 1.25rem;
         width: 95%;
       }
       .googlebutton > button {
-        padding: 7px 0;
+        padding: 0.438rem 0;
       }
       
       .googlebutton > button:hover {
-        padding: 7px 0;
+        padding: 0.438rem 0;
       }
       
+      .section0 {
+        margin: 1rem 0;
+      }
+    
+      .section1 {
+        margin: 1rem 0;
+      }
+      
+      .section2 {
+        margin: 1rem 0;
+      }
+      .section3 {
+        margin: 1rem 0;
+      }
+      
+      .section4 {
+        margin: 1rem 0;
+      }  
   }
